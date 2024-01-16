@@ -5,6 +5,19 @@
   "author": "Ana Gabriela",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.4"
+    "@swc/core": "^1.3.103",
+    "@swc/jest": "^0.2.29",
+    "@types/jest": "^29.5.11",
+    "@types/typescript": "^2.0.0",
+    "@types/uuid": "^9.0.7",
+    "jest": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
   }
 }
