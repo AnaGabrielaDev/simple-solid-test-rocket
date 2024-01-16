@@ -7,4 +7,8 @@ export abstract class Entity<T> {
         this._id = id ?? UUID.toString()
         this.props = props
     }
+
+    get id(): String {
+        return this.id
+    }
 }

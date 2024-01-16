@@ -18,4 +18,15 @@ export class Submission extends Entity<SubmissionProps> {
         return submission;
     }
 
+    get challegenId(): string {
+        return this.props.challegenId;
+    }
+
+    get studentId(): string {
+        return this.props.studentId;
+    }
+
+    get createdAt(): Date | null {
+        return this.props.createdAt ?? null;
+    }
 }
